@@ -1,6 +1,6 @@
 # FS_VCU
 Embedded Software for custom Formula Student VCU of Democritus Racing Team(2023 - 2024).
-(Used STM32F446RE)
+(Used STM32F446RE and was developed on STM32CubeIDE)
 
 
 This software handled many tasks like:
