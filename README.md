@@ -3,7 +3,7 @@ Embedded Software for custom Formula Student VCU of Democritus Racing Team(2023 
 (Used STM32F446RE and was developed on STM32CubeIDE)
 
 
-This software handled many tasks like:
+This software handles many tasks like:
 
 inverter communication(Writing and Reading Data through CANBus), 
 
