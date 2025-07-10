@@ -426,7 +426,7 @@ void pedalSensor(VCUData *_vcu){
   val1 = map(val1, _vcu->APPS1.mappedMin, _vcu->APPS1.mappedMax, 0, ADC_MAX_VALUE);
   val2 = map(val2, _vcu->APPS2.mappedMin, _vcu->APPS2.mappedMax, 0, ADC_MAX_VALUE);
 
-  if(abs(val1 - val2) > 0.2 * ADC_MAX_VALUE) {
+  if(abs(val1 - val2) > 0.1 * ADC_MAX_VALUE) {
     //T 11.8.8 elegxo an exo diafora timon gia 100ms
     for(int i = 0; i < 20; i++){
       val1 = _vcu->rawSensorData[1];//pairno analogika tis dio times ton apps
